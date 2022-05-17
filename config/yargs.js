@@ -29,7 +29,3 @@ const argv = require('yargs')
             .argv;
 
 module.exports = { argv }
-
-
-/*const [,,arg3 = 'base=5'] = process.argv;
-const [, base = 5 ] = arg3.split('=');*/
